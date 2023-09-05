@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "CiscoSans TT Extra Light";
+    src: local("CiscoSans TT Extra Light"),
+        url(@/assets/fonts/CiscoSansTTExtraLight.woff2) format("truetype"),
+        local("CiscoSans TT Extra Light"),
+        url(@/assets/fonts/CiscoSansTTExtraLight.woff) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CiscoSans TT Light";
+    src: local("CiscoSans TT Light"),
+        url(@/assets/fonts/CiscoSansTTLight.woff2) format("truetype"),
+        local("CiscoSans TT Light"),
+        url(@/assets/fonts/CiscoSansTTLight.woff) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CiscoSans TT Regular";
+    src: local("CiscoSans TT Regular"),
+        url(@/assets/fonts/CiscoSansTTRegular.woff2) format("truetype"),
+        local("CiscoSans TT Regular"),
+        url(@/assets/fonts/CiscoSansTTRegular.woff) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CiscoSans TT Bold";
+    src: local("CiscoSans TT Bold"),
+        url(@/assets/fonts/CiscoSansTTBold.woff2) format("truetype"),
+        local("CiscoSans TT Bold"),
+        url(@/assets/fonts/CiscoSansTTBold.woff) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.zerotouch-light {
+    font-family: "CiscoSans TT Extra Light" !important;
+}
+.zerotouch-normal {
+    font-family: "CiscoSans TT Light" !important;
+}
+.zerotouch-bold {
+    font-family: "CiscoSans TT Regular" !important;
+}

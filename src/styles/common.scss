@@ -1,0 +1,177 @@
+.body {
+    font-family: "CiscoSans TT Light";
+}
+.el-autocomplete {
+    width: 100%;
+    border-radius: 3px;
+    .el-input__wrapper {
+        background-color: #53586b;
+        border-color: #53586b;
+        box-shadow: 0 0 0 1px #53586b inset;
+    }
+}
+.my-autocomplete {
+    background-color: #53586b !important;
+    border-color: #00c4f5 !important;
+    .el-autocomplete-suggestion li {
+        color: #fff;
+        font-family: "CiscoSans TT Light";
+    }
+    .el-autocomplete-suggestion li:hover {
+        color: #fff;
+        background-color: #00c4f5;
+    }
+    .el-popper__arrow::before {
+        background-color: #53586b !important;
+        border-color: #00c4f5 !important;
+    }
+}
+
+.common-layout {
+    background-color: #333640;
+    font-family: "CiscoSans TT Light";
+    .el-main {
+        height: 100vh;
+        min-width: 1100px;
+    }
+    .navigation_title {
+        padding: 20px 0 5px 0;
+        font-size: 25px;
+        color: #fff;
+    }
+    .navigation_discription {
+        color: #fff;
+        font-size: 11px;
+    }
+    .common_content {
+        height: 100%;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #404452 !important;
+
+        .el-table, .common_select_checkbox {
+            background-color: #404452;
+        }
+        .el-input__wrapper {
+            box-shadow: 0 0 0 1px transparent inset;
+            border-bottom: 1px solid #848484;
+            border-radius: 0;
+            background-color: #404452;
+        }
+        .el-input__wrapper:hover {
+            box-shadow: 0 0 0 1px transparent inset;
+            border-color: #00c4f5;
+        }
+        .common_table {
+            padding: 20px 0;
+        }
+        .common_table,
+        .common_table th {
+            color: #fff;
+        }
+        .common_table th.el-table__cell,
+        .el-table__body td.el-table__cell {
+            background-color: #404452;
+            font-size: small;
+        }
+        
+        .el-table__expand-icon {
+            color: #fff !important;
+        }
+          
+        .el-table__body tr:hover>td{
+        
+            background-color: #333640;
+        
+        }
+        .common_box {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            height: 20px;
+            width: 85px;
+            padding: 0 2px;          
+            border-radius: 12px;
+        }
+        .common_table_search {
+            display: flex;
+            align-items: center;
+            
+
+            .common_add_button {
+                border: 1px solid #11ee9e;
+                background-color: #7cff4e40;
+                color: #fff;
+                margin-left: auto;
+                .icon_circleplus {
+                    color: #11ee9e;
+                    padding-right: 10px;
+                    font-size: large;
+                }
+            }
+
+            .common_delete_button {
+                border: 1px solid #ff2020;
+                background-color: #793943;
+                color: #fff;
+            }
+        }
+        .small-datepicker{
+            width: 150px;
+            background-color: #404452;
+            
+        }
+        .common_icon_box {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        .delete_icon {
+            height: 20px;
+            width: 20px;
+            color: #ff2020;
+            padding-right: 10px;
+            font-size: large;
+        }
+    }
+}
+
+.common_dialog {
+    background-color: #404452;
+    color: #fff;
+    font-family: "CiscoSans TT Light";
+    .el-dialog__title { 
+        color: #fff;
+    }
+    .el-form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .el-form-item label{
+            color: #fff;
+        }
+        .el-input__inner,
+        .el-select .el-input__inner { 
+            color: #fff; 
+        } 
+        .el-textarea__inner {
+            background-color: #404452;
+        }
+  
+    }
+    .common_steps {
+        border-bottom: 1px solid #b9b9b9;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+        .el-step__title.is-wait, .el-step__title.is-process { 
+            color: #fff;
+        }
+        .el-step__head.is-success {
+            color: #00c4f5;
+            border-color: #00c4f5;
+        }
+        .el-step__title.is-success {
+            font-weight: bold;
+            color: #00c4f5;
+        } 
+    }
+}
